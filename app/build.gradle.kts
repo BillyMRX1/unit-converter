@@ -62,6 +62,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.compose)
     implementation(libs.androidx.compose.runtime)
     implementation(libs.androidx.splashscreen)
+    implementation(libs.mockito.core)
+    implementation(libs.arch.testing)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
