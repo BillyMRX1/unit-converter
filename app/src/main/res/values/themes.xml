@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.UnitConverter" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.UnitConverter.SplashScreen" parent="Theme.UnitConverter">
+        <item name="windowSplashScreenBackground">@color/creme</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/uc_icon</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.UnitConverter</item>
+    </style>
+</resources>
